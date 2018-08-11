@@ -1,0 +1,23 @@
+ren camera.h.txt camera.h
+ren fps.h.txt fps.h
+ren geom.h.txt geom.h
+ren NeHeGL.h.txt NeHeGL.h
+ren OpenAL.h.txt OpenAL.h
+ren PhyEnt.h.txt PhyEnt.h
+ren PlayerController.h.txt PlayerController.h
+ren spaceship.h.txt spaceship.h
+ren alCWaves.cpp.txt alCWaves.cpp
+ren alCWaves.h.txt alCWaves.h
+ren aldlist.cpp.txt aldlist.cpp
+ren aldlist.h.txt aldlist.h
+
+ren ALFramework.cpp.txt ALFramework.cpp
+ren alLoadOAL.cpp.txt alLoadOAL.cpp
+ren alLoadOAL.h.txt alLoadOAL.hs
+ren camera.cpp.txt camera.cpp
+ren fps.cpp.txt fps.cpp
+ren NeHeGL.cpp.txt NeHeGL.cpp
+ren OpenAL.cpp.txt OpenAL.cpp
+ren PhyEnt.cpp.txt PhyEnt.cpp
+ren PlayerController.cpp.txt PlayerController.cpp
+ren spaceship.cpp.txt spaceship.cpp
