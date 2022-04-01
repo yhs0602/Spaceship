@@ -1,0 +1,189 @@
+# depslib dependency file v1.0
+1589026364 source:e:\82102\documents\codeblockprojects\spaceship\alcwaves.cpp
+	"alCWaves.h"
+	<ks.h>
+	<ksmedia.h>
+	<errno.h>
+
+1589026364 e:\82102\documents\codeblockprojects\spaceship\alcwaves.h
+	<windows.h>
+	<stdio.h>
+
+1589793004 source:e:\82102\documents\codeblockprojects\spaceship\call_of_dduty_private.rc
+	<windows.h>
+
+1589026364 source:e:\82102\documents\codeblockprojects\spaceship\chunk.cpp
+	"terrain.h"
+
+1589026364 e:\82102\documents\codeblockprojects\spaceship\terrain.h
+
+1589026364 source:e:\82102\documents\codeblockprojects\spaceship\audiomanager.cpp
+	"spaceship.h"
+	"audiomanager.h"
+	"alCWaves.h"
+
+1589026364 e:\82102\documents\codeblockprojects\spaceship\spaceship.h
+	<windows.h>
+	<gl\gl.h>
+	<gl\glu.h>
+	<al\al.h>
+	<al\alc.h>
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<exception>
+	"geom.h"
+	"NeHeGL.h"
+
+1589790908 e:\82102\documents\codeblockprojects\spaceship\geom.h
+	<math.h>
+	<math.h>
+
+1589026364 e:\82102\documents\codeblockprojects\spaceship\nehegl.h
+	<windows.h>
+
+1589026364 e:\82102\documents\codeblockprojects\spaceship\audiomanager.h
+	"spaceship.h"
+
+1589026364 source:e:\82102\documents\codeblockprojects\spaceship\camera.cpp
+	"spaceship.h"
+	"camera.h"
+
+1589026364 e:\82102\documents\codeblockprojects\spaceship\camera.h
+
+1589026364 source:e:\82102\documents\codeblockprojects\spaceship\fps2.cpp
+	"spaceship.h"
+	"fps2.h"
+	"glutil.h"
+
+1589026364 e:\82102\documents\codeblockprojects\spaceship\fps2.h
+	"spaceship.h"
+
+1589026364 e:\82102\documents\codeblockprojects\spaceship\glutil.h
+
+1589026364 source:e:\82102\documents\codeblockprojects\spaceship\glutil.cpp
+	"spaceship.h"
+	"glutil.h"
+	"terrain/terrain.h"
+	"playercontroller.h"
+	"fps2.h"
+
+1589026364 e:\82102\documents\codeblockprojects\spaceship\terrain\terrain.h
+	"../spaceship.h"
+	<string>
+	<vector>
+
+1589026364 e:\82102\documents\codeblockprojects\spaceship\playercontroller.h
+	"camera.h"
+
+1584205422 source:e:\82102\documents\codeblockprojects\spaceship\main.c
+	<windows.h>
+	<gl/gl.h>
+
+1589026364 source:e:\82102\documents\codeblockprojects\spaceship\main.cpp
+	"spaceship.h"
+	"playercontroller.h"
+	"audiomanager.h"
+	"fps2.h"
+	"GLutil.h"
+	"terrain/terrain.h"
+
+1589026364 source:e:\82102\documents\codeblockprojects\spaceship\nehegl.cpp
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<exception>
+	"NeHeGL.h"
+	"math.h"
+
+1589026364 source:e:\82102\documents\codeblockprojects\spaceship\phyent.cpp
+	"spaceship.h"
+
+1589026364 source:e:\82102\documents\codeblockprojects\spaceship\playercontroller.cpp
+	"spaceship.h"
+	"Terrain/terrain.h"
+	"playercontroller.h"
+	"NeHeGL.h"
+	"AudioManager.h"
+
+1589026364 source:e:\82102\documents\codeblockprojects\spaceship\terrain\camera.cpp
+	"camera.h"
+
+1589026364 e:\82102\documents\codeblockprojects\spaceship\terrain\camera.h
+	<d3dx9.h>
+
+1589026364 source:e:\82102\documents\codeblockprojects\spaceship\terrain\dxutil.cpp
+	<windows.h>
+	<mmsystem.h>
+	<tchar.h>
+	<stdio.h>
+	<stdarg.h>
+	"DXUtil.h"
+
+1589026364 e:\82102\documents\codeblockprojects\spaceship\terrain\dxutil.h
+
+1589026364 source:e:\82102\documents\codeblockprojects\spaceship\terrain\fps.cpp
+	"fps.h"
+	<cstdio>
+
+1589026364 e:\82102\documents\codeblockprojects\spaceship\terrain\fps.h
+	"d3dfont.h"
+
+1589026364 e:\82102\documents\codeblockprojects\spaceship\terrain\d3dfont.h
+	<tchar.h>
+	<D3D9.h>
+
+1589792230 source:e:\82102\documents\codeblockprojects\spaceship\odehelper.cpp
+	"spaceship.h"
+	"ODEHelper.h"
+
+1589792684 e:\82102\documents\codeblockprojects\spaceship\odehelper.h
+	<ode/ode.h>
+
+1589026364 source:e:\82102\documents\codeblockprojects\spaceship\terrain\terraindriver.cpp
+	"d3dUtility.h"
+	"terrain.h"
+	"camera.h"
+	"fps.h"
+
+1589026364 e:\82102\documents\codeblockprojects\spaceship\terrain\d3dutility.h
+	<d3dx9.h>
+	<string>
+	<limits>
+
+1589026364 source:e:\82102\documents\codeblockprojects\spaceship\tmatrix.cpp
+	"tmatrix.h"
+	"tvector.h"
+
+1589026364 e:\82102\documents\codeblockprojects\spaceship\tmatrix.h
+	<iostream>
+	"geom.h"
+
+1589026364 e:\82102\documents\codeblockprojects\spaceship\tvector.h
+	<iostream>
+	<math.h>
+	"geom.h"
+
+1589026364 source:e:\82102\documents\codeblockprojects\spaceship\tray.cpp
+	"tray.h"
+	<math.h>
+	"geom.h"
+
+1589026364 e:\82102\documents\codeblockprojects\spaceship\tray.h
+	<iostream>
+	"geom.h"
+	"tvector.h"
+
+1589026364 source:e:\82102\documents\codeblockprojects\spaceship\tvector.cpp
+	"tvector.h"
+	"tray.h"
+
+1589026364 source:e:\82102\documents\codeblockprojects\spaceship\world.cpp
+	"spaceship.h"
+
+1589801927 source:e:\82102\documents\codeblockprojects\spaceship\terrain\terrain.cpp
+	"terrain.h"
+	<fstream>
+	<cmath>
+

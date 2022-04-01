@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Spaceship" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Spaceship" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++17" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="../../../../Program Files/CodeBlocks/MinGW/x86_64-w64-mingw32/lib/libode_single.a" />
+					<Add library="../../../../Program Files/CodeBlocks/MinGW/x86_64-w64-mingw32/lib/OpenAL32.lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Spaceship" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++17" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="gdi32" />
+		</Linker>
+		<Unit filename="AudioManager.cpp" />
+		<Unit filename="AudioManager.h" />
+		<Unit filename="Bound.h" />
+		<Unit filename="Call_Of_Dduty_private.h" />
+		<Unit filename="Call_Of_Dduty_private.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="Call_Of_Dduty_private.res" />
+		<Unit filename="FPS2.h" />
+		<Unit filename="GLutil.cpp" />
+		<Unit filename="GLutil.h" />
+		<Unit filename="Makefile" />
+		<Unit filename="Mathex.h" />
+		<Unit filename="NeHeGL.cpp" />
+		<Unit filename="NeHeGL.h" />
+		<Unit filename="ODEHelper.cpp" />
+		<Unit filename="ODEHelper.h" />
+		<Unit filename="OpenAL.txt" />
+		<Unit filename="PhyEnt.cpp" />
+		<Unit filename="PhyEnt.h" />
+		<Unit filename="PlayerController.cpp" />
+		<Unit filename="PlayerController.h" />
+		<Unit filename="Terrain.h" />
+		<Unit filename="Terrain/camera.h" />
+		<Unit filename="Terrain/chap13_0.jpg" />
+		<Unit filename="Terrain/coastMountain64.raw" />
+		<Unit filename="Terrain/d3dUtility.h" />
+		<Unit filename="Terrain/d3dfont.h" />
+		<Unit filename="Terrain/desert.bmp" />
+		<Unit filename="Terrain/desert.jpg" />
+		<Unit filename="Terrain/dxutil.h" />
+		<Unit filename="Terrain/fps.h" />
+		<Unit filename="Terrain/grass.bmp" />
+		<Unit filename="Terrain/grass.jpg" />
+		<Unit filename="Terrain/terrain.cpp" />
+		<Unit filename="Terrain/terrain.h" />
+		<Unit filename="Tmatrix.cpp" />
+		<Unit filename="Tmatrix.h" />
+		<Unit filename="Tray.cpp" />
+		<Unit filename="Tray.h" />
+		<Unit filename="Tvector.cpp" />
+		<Unit filename="Tvector.h" />
+		<Unit filename="World.cpp" />
+		<Unit filename="alCWaves.cpp" />
+		<Unit filename="alCWaves.h" />
+		<Unit filename="boss.h" />
+		<Unit filename="camera.cpp" />
+		<Unit filename="camera.h" />
+		<Unit filename="chunk.cpp" />
+		<Unit filename="classes.h" />
+		<Unit filename="fps2.cpp" />
+		<Unit filename="geom.h" />
+		<Unit filename="log.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main.h" />
+		<Unit filename="spaceship.h" />
+		<Unit filename="world.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
