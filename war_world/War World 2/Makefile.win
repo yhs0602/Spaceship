@@ -1,0 +1,42 @@
+# Project: War World 2
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = "War\ World\ 2.o" observer.o player.o "special\ effect.o" transportation.o $(RES)
+LINKOBJ  = "War World 2.o" observer.o player.o "special effect.o" transportation.o $(RES)
+LIBS =  -L"lib" -mwindows -lopengl32 -lglu32 -lglaux -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -loleaut32 -luuid -lodbc32 -lodbccp32  
+INCS =  -I"include" 
+CXXINCS =  -I"lib/gcc/mingw32/3.4.2/include"  -I"include/c++/3.4.2/backward"  -I"include/c++/3.4.2/mingw32"  -I"include/c++/3.4.2"  -I"include" 
+BIN  = "War World 2.exe"
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS) -D__GNUWIN32__ -W -DWIN32 -DNDEBUG -D_WINDOWS -D_MBCS  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before "War World 2.exe" all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "War World 2.exe" $(LIBS)
+
+"War\ World\ 2.o": War\ World\ 2.cpp
+	$(CPP) -c "War World 2.cpp" -o "War World 2.o" $(CXXFLAGS)
+
+observer.o: observer.cpp
+	$(CPP) -c observer.cpp -o observer.o $(CXXFLAGS)
+
+player.o: player.cpp
+	$(CPP) -c player.cpp -o player.o $(CXXFLAGS)
+
+"special\ effect.o": special\ effect.cpp
+	$(CPP) -c "special effect.cpp" -o "special effect.o" $(CXXFLAGS)
+
+transportation.o: transportation.cpp
+	$(CPP) -c transportation.cpp -o transportation.o $(CXXFLAGS)
