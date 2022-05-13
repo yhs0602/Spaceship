@@ -1,0 +1,31 @@
+# Project: SpaceShip
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = GLWindow.o camera.o
+LINKOBJ  = GLWindow.o camera.o
+LIBS     = -L"D:/양현서/Dev-Cpp/MinGW64/lib" -L"D:/양현서/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -mwindows -lopengl32 -lglu32  -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -loleaut32 -luuid -lodbc32 -lodbccp32
+INCS     = -I"D:/양현서/Dev-Cpp/MinGW64/include" -I"D:/양현서/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/양현서/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"D:/양현서/Dev-Cpp/MinGW64/include" -I"D:/양현서/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/양현서/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/양현서/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = SpaceShip.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) -D__GNUWIN32__ -W -DWIN32 -DNDEBUG -D_WINDOWS -D_MBCS
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+GLWindow.o: GLWindow.cpp
+	$(CPP) -c GLWindow.cpp -o GLWindow.o $(CXXFLAGS)
+
+camera.o: camera.cpp
+	$(CPP) -c camera.cpp -o camera.o $(CXXFLAGS)
